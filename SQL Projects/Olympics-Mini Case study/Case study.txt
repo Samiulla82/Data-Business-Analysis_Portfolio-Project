@@ -1,0 +1,14 @@
+
+  ----------------------Column description:-------------------
+
+--ID -> ID of every records to our dataset. It has integer datatype.
+--Name -> Name of the athletes.
+--Sex -> Gender of the athletes.
+--Height -> Height of the athletes
+--Weight -> Weight of the athletes
+--NOC -> In which country, the athletes belong to. This is actually the country code.
+--Year -> In which year, the athlete has participated
+--Sport -> What is the sport name in which the athlete participated.
+--Event -> Event name of the sport
+--Medal -> Which medal the athlege got. If the athlete did not get any medal then this cell is blank.
+--country -> The name of the country.
