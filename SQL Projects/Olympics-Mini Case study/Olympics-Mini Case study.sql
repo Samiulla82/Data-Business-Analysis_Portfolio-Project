@@ -1,8 +1,5 @@
 
 
-
-  USE CampusX
-
   SELECT * FROM olympics
 
   --Rename Tables name--- 
