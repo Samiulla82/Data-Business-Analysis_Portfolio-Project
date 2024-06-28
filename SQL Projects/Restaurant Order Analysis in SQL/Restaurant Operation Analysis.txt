@@ -14,7 +14,11 @@ The objectives:
 
 Key insights:
 
-The data available for this analysis consisted of order data from January through March of 2023. This covers the first three months of the restaurant using the new menu with a total of 5370 orders throughout this time.
+The data available for this analysis consisted of order data from January through March of 2023. This covers the first three months of the restaurant
+using the new menu with a total of 5370 orders throughout this time.
 Taste of the World Cafe offers a variety of American, Asian, Mexican and Italian dishes.
-They offer a larger number of Mexican and Italian dishes, though the most ordered items are actually in the American and Asian categories. The top five items ordered consists of the hamburger, edamame, Korean beef bowl, the cheeseburger, and French fries. The least popular items were there steak tacos, cheese lasagna, potstickers, and chicken tacos.
-The menu items range in price from 5 up to 19.95, with the edamame being the least expensive and the shrimp scampi being the most expensive. The edamame was the least expensive, but was included on 620 orders leading this to be the second most ordered item. There were only 239 orders of the shrimp scampi.
+They offer a larger number of Mexican and Italian dishes, though the most ordered items are actually in the American and Asian categories. 
+The top five items ordered consists of the hamburger, edamame, Korean beef bowl, the cheeseburger, and French fries. 
+The least popular items were there steak tacos, cheese lasagna, potstickers, and chicken tacos.
+The menu items range in price from 5 up to 19.95, with the edamame being the least expensive and the shrimp scampi being the most expensive. 
+The edamame was the least expensive, but was included on 620 orders leading this to be the second most ordered item. There were only 239 orders of the shrimp scampi.
