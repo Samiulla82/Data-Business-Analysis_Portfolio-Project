@@ -1,21 +1,15 @@
 Insurance Claim Analysis: Demographic and Health Factors- Impact on Risk and Severity of Insurance Claim
 
+--About Data---
+
+The insurance_data.csv file contains detailed information about insurance claims, including age, gender, BMI, blood pressure, diabetic status, number of children, smoking status and region of the insured person
 
 
-
-Column name Description
-
-Diabetic Whether the insured person is diabetic or not. (Boolean)
-
-Children Number of children of the insured person. (Integer)
-
-Smoker Whether the insured person is a smoker or not. (Boolean)
-
-Claim Amount of the insurance claim. (Float)
-
-
-
-
+Column name Description:
+Diabetic: Whether the insured person is diabetic or not. (Boolean)
+Children: Number of children of the insured person. (Integer)
+Smoker: Whether the insured person is a smoker or not. (Boolean)
+Claim: Amount of the insurance claim. (Float)
 
 
 
