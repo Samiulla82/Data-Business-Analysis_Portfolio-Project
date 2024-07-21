@@ -1,0 +1,16 @@
+PowerQuery is one of the most powerful tools that you can use for Excel and Power BI.
+
+First, we learn how to import multiple excel files into one for further analysis. Then, 
+we learn how to clean up data in Power Query which is much faster than Excel. Finally, 
+once the data is clean up, we upload it onto excel for further analysis using Pivot Tables. 
+We also see how adding new data affects the analysis.
+
+- Combining Multiple Excel Files
+- Cleaning up the Data
+- Analysing the Data with Pivot Tables
+- Adding more Data
+
+
+
+
+
