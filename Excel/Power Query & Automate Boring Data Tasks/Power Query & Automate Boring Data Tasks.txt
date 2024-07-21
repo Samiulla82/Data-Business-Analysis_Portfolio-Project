@@ -1,0 +1,25 @@
+What is Power Query?
+Power Query is a powerful data pre-processing engine built into Excel and Power BI. 
+It enables users to effortlessly bring in data from various sources and perform pre-processing or clean-up activities. 
+Power Query automates common data tasks such as removing duplicates, combining files, merging (joining) datasets, 
+adding derived columns, splitting or extracting data, and changing the shape or size of your data.
+
+Power Query is accessible in both Excel and Power BI:
+
+In Excel: Go to the DATA Ribbon and use the "Get & Transform Data" options.
+In Power BI: Use the "Get Data" or "Transform" buttons.
+Is Power Query Better Than SQL?
+Power Query and SQL offer largely similar capabilities when it comes to data manipulation and transformation. 
+However, Power Query provides more freedom and options, making it easier to learn and use for those who may not have a technical background in SQL.
+
+
+Tasks to be Performed on the Data for Clean-up
+Here are some common tasks that can be performed using Power Query to clean up your data:
+
+Check for Blanks: Identify and handle blank or missing values in your dataset.
+Check for Duplicates: Detect and remove duplicate entries to ensure data integrity.
+Create ID (e.g., JohnD): Generate unique identifiers for your records, such as concatenating first names and initials.
+Figure Out Term Start Date: Determine the start dates for terms or periods within your data.
+Calculate Fee Status: Compute the status of fees, such as determining if fees are paid, pending, or overdue.
+Using Power Query, these tasks can be automated, significantly reducing the time and effort required for data preparation
+ and ensuring your data is accurate and ready for analysis.
