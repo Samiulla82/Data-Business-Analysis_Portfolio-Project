@@ -1,0 +1,12 @@
+Creating Excel Dashboards:
+
+1. Prepare Your Data and Dashboard Sheet
+I'll start by organizing my data. For this example, I used a sales dataset spanning 12 months, categorized by seller, product, state, sales, and profit.
+I formatted the data in an Excel Table to allow for automatic updating of my dashboard.
+I prepared five PivotTables to support the charts I plan to insert on the dashboard.
+
+2. Designing Your Dashboard Canvas:
+The foundation of a good dashboard is its design. Begin by setting the dashboard's background color.
+Click the arrow at the intersection of the row and column labels to select the whole sheet, then apply the cell fill color.
+I'm using a dark indigo, providing a visually appealing contrast for my charts and data elements. This is on a newly inserted blank sheet in my Excel workbook.
+
