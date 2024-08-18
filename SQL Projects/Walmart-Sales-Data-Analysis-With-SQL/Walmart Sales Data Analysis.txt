@@ -124,17 +124,10 @@ Revenue And Profit Calculations
 $ COGS = unitsPrice * quantity $
 
 $ VAT = 5% * COGS $
+A value-added tax (VAT or goods and services tax (GST), general consumption tax (GCT)), is a consumption tax that is levied on the value added at each stage of a product's production and distribution.
 
-V
-A
-T
- is added to the 
-C
-O
-G
-S
- and this is what is billed to the customer.
-
+Cost of goods sold (COGS) is the cost of acquiring or manufacturing the products or finished goods that a company then sells during a period.
+ 
 $ total(gross_sales) = VAT + COGS $
 
 $ grossProfit(grossIncome) = total(gross_sales) - COGS $
@@ -143,8 +136,7 @@ Gross Margin is gross profit expressed in percentage of the total(gross profit/r
 
 $ \text{Gross Margin} = \frac{\text{gross income}}{\text{total revenue}} $
 
-Example with the first row in our DB:
-
+Example with the first Record OR row in our DataBase:
 Data given:
 
 $ \text{Unite Price} = 45.79 $
@@ -159,6 +151,29 @@ $ total = VAT + COGS\= 16.0265 + 320.53 =
 $ \text{Gross Margin Percentage} = \frac{\text{gross income}}{\text{total revenue}}\=\frac{16.0265}{336.5565} = 0.047619\\approx 4.7619% $
 
 
-
-
 Code
+
+
+-- Create database
+CREATE DATABASE IF NOT EXISTS walmartSales;
+
+-- Create table
+CREATE TABLE  sales(
+	invoice_id VARCHAR(30) NOT NULL PRIMARY KEY,
+    branch VARCHAR(5) NOT NULL,
+    city VARCHAR(30) NOT NULL,
+    customer_type VARCHAR(30) NOT NULL,
+    gender VARCHAR(30) NOT NULL,
+    product_line VARCHAR(100) NOT NULL,
+    unit_price DECIMAL(10,2) NOT NULL,
+    quantity INT NOT NULL,
+    tax_pct FLOAT(6,4) NOT NULL,
+    total DECIMAL(12, 4) NOT NULL,
+    date DATETIME NOT NULL,
+    time TIME NOT NULL,
+    payment VARCHAR(15) NOT NULL,
+    cogs DECIMAL(10,2) NOT NULL,
+    gross_margin_pct FLOAT(11,9),
+    gross_income DECIMAL(12, 4),
+    rating FLOAT(2, 1)
+);
