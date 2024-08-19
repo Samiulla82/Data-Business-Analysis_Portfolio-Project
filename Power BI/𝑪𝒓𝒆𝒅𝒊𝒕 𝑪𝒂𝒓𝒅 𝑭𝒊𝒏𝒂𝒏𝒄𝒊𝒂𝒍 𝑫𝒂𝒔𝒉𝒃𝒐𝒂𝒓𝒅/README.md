@@ -6,8 +6,9 @@ The "Credit Card Financial Dashboard" is a Power BI project aimed at providing a
 
 Project Contents:  
 1. Credit Card Transaction Report: This page presents detailed analysis of credit card transactions, including transaction volume, types of transactions, transaction amounts, and any anomalies or trends observed.
-Credit Card Transaction Report  
-2. Credit Card Customer Report: The second page focuses on analyzing customer-related metrics, such as customer demographics, spending behavior, credit limits, and any customer-specific insights that can aid in decision-making processes.
+Credit Card Transaction Report
+
+3. Credit Card Customer Report: The second page focuses on analyzing customer-related metrics, such as customer demographics, spending behavior, credit limits, and any customer-specific insights that can aid in decision-making processes.
 Credit Card Customer Report
 
 How to Use:  
@@ -16,11 +17,13 @@ How to Use:
 
 Download or clone the repository to your local machine.  
 Open the Power BI file (.pbix) using Power BI Desktop.  
+
 3. Navigating the Dashboard:  
 Upon opening the Power BI file, you will be presented with the main dashboard view.
 Use the tabs or navigation buttons to switch between the "Credit Card Transaction Report" and "Credit Card Customer Report" pages.
-Interact with the visualizations to explore the data and gain insights.  
-4. Customization:  
+Interact with the visualizations to explore the data and gain insights.
+
+5. Customization:  
 Feel free to customize the dashboard according to your specific requirements.  
 You can modify existing visualizations, add new ones, or incorporate additional data sources as needed.  
 
