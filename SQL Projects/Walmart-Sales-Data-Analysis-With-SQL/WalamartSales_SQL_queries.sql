@@ -38,15 +38,20 @@ SELECT TOP (1) Payment, COUNT(*) AS payment_count
 	GROUP BY Payment
 	ORDER BY payment_count DESC
 
+
+	
 --What is the most selling product line?
 SELECT TOP(1) Product_line, SUM(Quantity) AS total_quantity_sold
 FROM SalesData
 GROUP BY Product_line
 ORDER BY total_quantity_sold DESC
 
+	
 --Creating Revenue coulumn 
 SELECT unit_price * Quantity + Tax_5 FROM SalesData
 
+
+	
 --What is the total revenue by month?
 
 SELECT DATENAME(MONTH, Date), SUM(Revenue)AS total_revenue
@@ -61,6 +66,7 @@ GROUP BY MONTH(Date)
 ORDER BY total_revenue DESC
 
 
+	
 --What month had the largest COGS?
 
 SELECT TOP(1) MONTH(Date)AS Month_Num, SUM(cogs) AS total_cogs 
@@ -71,17 +77,15 @@ ORDER BY total_cogs DESC
 --OR With CTE
 
 WITH CTE1 AS (
-
 SELECT FORMAT(Date,'yyyy-MMM') as Month, -- Converts the datetime to the full month name 
-SUM(cogs) AS total_cogs  -- Replace COGS with the actual column name for Cost of Goods Sold
+SUM(cogs) AS total_cogs  --  COGS : Cost of Goods Sold
 FROM SalesData 
 GROUP BY FORMAT(Date,'yyyy-MMM') -- Groups by year and month to handle multiple years
-
 )
-
 SELECT TOP(1) Month, total_cogs FROM CTE1
 ORDER BY total_cogs DESC;
  
+
 
 
 
@@ -114,30 +118,23 @@ SELECT TOP(1) Product_line, SUM(Tax_5) Total_VAT
 	
 
 --Fetch each product line and add a column to those product line showing "Good", "Bad". Good if its greater than average sales
-
-
 --With CTE 
 
 WITH AverageRevenue AS (
-
 SELECT AVG(Total_Revenue) AS Avg_Revenue
 FROM (
 		SELECT Product_line, SUM(Revenue) AS Total_Revenue
 		FROM SalesData
 		GROUP BY Product_line
 	   ) AS t
-),
+),           ---------------------------53827.79
 
---53827.79
 ProductLineSales AS (
-
 SELECT Product_line, SUM(revenue) AS Total_Revenue
 FROM SalesData
 GROUP by Product_line
 )
-
 --ProductLine ,Total Revenue Agreggeted
-
 --Main Query
 SELECT p.Product_line, p.Total_Revenue,
 		CASE
@@ -161,13 +158,13 @@ SELECT Branch, SUM(Quantity) Total_Sold
 FROM SalesData
 GROUP BY Branch
 HAVING SUM(Quantity)> (
-						SELECT AVG(Total_Sold) AS Avg_Product_Sold
-						FROM (
-								SELECT Branch, SUM(Quantity) Total_Sold
-								FROM SalesData
-								GROUP BY Branch
-												) AS t
-						);
+			SELECT AVG(Total_Sold) AS Avg_Product_Sold
+			FROM (
+				SELECT Branch, SUM(Quantity) Total_Sold
+				FROM SalesData
+				GROUP BY Branch
+			       ) AS t
+			);
 
 
 --with CTE
@@ -175,11 +172,11 @@ HAVING SUM(Quantity)> (
 WITH AverageProductsSold AS (
 	SELECT AVG(Total_Sold) AS Avg_Products
 	FROM (
-			SELECT  branch, SUM(Quantity) AS Total_Sold 
-			FROM SalesData
-			GROUP BY branch
+		SELECT  branch, SUM(Quantity) AS Total_Sold 
+		FROM SalesData
+		GROUP BY branch
 		
-		   ) AS BranchTotalsAvg
+		) AS BranchTotalsAvg
 ),
 
 BranchSales AS (
@@ -209,7 +206,6 @@ SELECT Gender, Product_line, ProductLineCount,
 RANK() OVER(PARTITION BY Gender Order BY ProductLineCount DESC) AS rank
 FROM CTE1
 )
-
 SELECT Gender, Product_line
 FROM RankedProductLines
 WHERE rank = 1
@@ -285,21 +281,25 @@ ORDER BY SUM(Tax_5) DESC
 -- --------------------------------------------------------------------
 
 --How many unique customer types does the data have?
-
 SELECT COUNT(DISTINCT Customer_type) AS UniqueCustomerTypes
 FROM salesData
 
+	
 
 --How many unique payment methods does the data have?
 SELECT COUNT(DISTINCT Payment) as UniquePaymentMethods
 FROM SalesData
 
+
+	
 --What is the most common customer type?
 SELECT TOP(1) Customer_type, COUNT(*) CountOfCustomerType
 FROM SalesData
 GROUP BY Customer_type
 ORDER BY CountOfCustomerType DESC
 
+
+	
 --Which customer type buys the most?
 SELECT TOP(1) Customer_type, COUNT(DISTINCT Invoice_ID) Count_Of_Invoice_ID
 FROM SalesData
@@ -307,23 +307,24 @@ GROUP BY Customer_type
 ORDER BY Count_Of_Invoice_ID DESC
 
 
+	
 --What is the gender of most of the customers?
 SELECT TOP(1) Gender, COUNT(DISTINCT Invoice_ID) AS Count_Of_Invoice_ID
 FROM SalesData
 GROUP BY Gender
 ORDER BY Count_Of_Invoice_ID DESC
 
+	
 
 --What is the gender distribution per branch?
-
 SELECT Branch, Gender, COUNT(*) AS Num_Gender
 FROM SalesData
 GROUP BY Branch, Gender
 ORDER BY Branch, Num_Gender DESC 
 
+
+	
 --Which time of the day do customers give most ratings?
-
-
 SELECT TOP(1)
     CASE
         WHEN DATEPART(HOUR, Time) BETWEEN 0 AND 5 THEN 'Late Night'
