@@ -1,22 +1,25 @@
-#HR-Analytics-Dashboard-Using-Power-BI
+# HR-Analytics-Dashboard-Using-Power-BI
+## Horizontal Rules
+___
 
 I have created a interactive Dashboard on HR Analytics using Power BI.  
 
-Objective: - By using data-driven insights, help an organization by enhancing staff performance, increasing employee retention, 
+### Objective: - 
+By using data-driven insights, help an organization by enhancing staff performance, increasing employee retention, 
 and lowering attrition.  
 
-Dashboard Overview: - Department Level Filter - Human Resources, Research & Development, Sales. 
+### Dashboard Overview: - Department Level Filter - Human Resources, Research & Development, Sales. 
 Performance Indicators (KPIs) – Count of employees, attrition figures, attrition rate, average age of employees,
 average salary of employees, and average year of employees at the company.
 
-Action: -  
+## Action: -  
 Data Cleaning: Use Power Query to Clean the irrelevant and unused data such as removing duplicates, renaming columns,
 and changing data types. Data Processing: Load and Apply the cleaned data into Power BI. 
 
 Data Visualization: Create Measures and columns Using DAX functions such as count, sum, calculate, etc.
 
 
-Insights: -
+## Insights: -
 
 1-The attrition rate is higher in Life Sciences Education which is 38%.  
 2-Maximum attrition happening in the age group 26-35.  
