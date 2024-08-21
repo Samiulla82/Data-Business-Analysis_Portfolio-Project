@@ -1,5 +1,4 @@
 # HR-Analytics-Dashboard-Using-Power-BI
-## Horizontal Rules
 ___
 
 I have created a interactive Dashboard on HR Analytics using Power BI.  
