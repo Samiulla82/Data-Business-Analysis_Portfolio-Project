@@ -1,6 +1,6 @@
 # Samiulla's  Portfolio Projects  
 
-Hello, and thanks for stopping by! This repository contains examples of Excel, Python, SQL, POWER BI & Machine Learnings.  
+Hello, and thanks for stopping by! This repository contains examples of Excel, Python, SQL, POWER BI & Machine Learning personal projects.  
 
 I've written for solo projects and while learning/working through SQL, excel, PBI & Python, machine learning, and other data analytics courses. 
 Below are a few highlighted projects, including data visualizations I created using Power BI. 
