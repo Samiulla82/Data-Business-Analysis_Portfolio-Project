@@ -1,4 +1,6 @@
-## Walmart Sales Data Analysis  
+
+__Walmart-Sales-Data-Analysis--SQL-Project__
+ 
 
 ### About
 
