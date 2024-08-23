@@ -1,4 +1,4 @@
-## Pizza-Analysis
+## Pizza-Sales-Analysis
 
 ### Overview
 The analysis of pizza sales using SQL involves examining various sales trends, conducting month-wise sales analysis, category-wise analysis, and more. This analysis uncovers different insights into customer preferences and choices.
