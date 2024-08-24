@@ -7,7 +7,8 @@ In this report, I delve into the world of pizza sales, aiming to uncover valuabl
 The pizza business has been thriving, but to sustain and enhance our growth, I need a deeper understanding of our sales data. I aim to address the following questions:
 
 
-### Basic: (Difficulculty Level)
+**(Difficulculty Level)**
+### Basic: 
 1. Retrieve the total number of orders placed.
 2. Calculate the total revenue generated from pizza sales.
 3. Identify the highest-priced pizza.
@@ -36,6 +37,13 @@ To kickstart my analysis, I first take a look at the dataset. It provides inform
 - **Average Order:** The average order amount helps me understand the spending patterns of our customers.
 
 
+## Results
+
+- The following are some of the key findings from the analysis:
+- The total number of pizza orders was approximately 21,000.
+- The total sales of pizza were approximately 50,000.
+- The total revenue from pizza sales was $817,860.05.
+- The average order value was approximately $38.
 
 ### Introduction to SQL Server
 ___
