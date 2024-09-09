@@ -6,18 +6,18 @@ Performed an in-depth analysis of Netflix's content library using SQL to uncover
 ### ABOUT Dataset
 **The “netflix_titles” dataset contains the following columns:  **
 
-•	show_id: Unique identifier for each show.  
-•	type: Type of the content (e.g., Movie, TV Show).  
-•	title: Title of the show or movie.  
-•	director: Director of the show/movie (can be missing for some rows). 
-•	cast: List of cast members.  
-•	country: Country where the show/movie was produced.    
-•	date_added: Date when the show/movie was added to Netflix.  
-•	release_year: Year when the show/movie was released.  
-•	rating: Content rating (e.g., PG-13, TV-MA).  
-•	duration: Duration of the content (e.g., in minutes for movies or number of seasons for TV shows).  
-•	listed_in: Categories/genres the content belongs to.  
-•	description: Short description of the content.
+•	**show_id:** Unique identifier for each show.  
+•	**type:**  Type of the content (e.g., Movie, TV Show).  
+•	**title:**  Title of the show or movie.  
+•	**director:**  Director of the show/movie (can be missing for some rows).   
+•	**cast:**  List of cast members.  
+•	**country:**  Country where the show/movie was produced.    
+•	**date_added:**  Date when the show/movie was added to Netflix.  
+•	**release_year:**  Year when the show/movie was released.  
+•	**rating:**  Content rating (e.g., PG-13, TV-MA).  
+•	**duration:**  Duration of the content (e.g., in minutes for movies or number of seasons for TV shows).  
+•	**listed_in:**  Categories/genres the content belongs to.  
+•	**description:**  Short description of the content.
 
 #  Potential Questions or Tasks for Analysis:  
 ## 1.	Basic Analysis:
