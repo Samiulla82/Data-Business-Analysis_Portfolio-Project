@@ -26,30 +26,30 @@ o-	How many unique directors are in the dataset? Who are the most prolific direc
 o-	What are the top 10 countries producing the most content on Netflix?  
 
 ## 2.	Time-Based Analysis:
-o	How has the number of movies/TV shows added to Netflix changed over the years?  
-o	What are the trends in Netflix content release by year?  
-o	What is the oldest movie or TV show available on Netflix?
+o-	How has the number of movies/TV shows added to Netflix changed over the years?  
+o-	What are the trends in Netflix content release by year?  
+o-	What is the oldest movie or TV show available on Netflix?
 
 ## 3.	Genre-Based Analysis:
-o	Which genres are the most popular on Netflix (based on the listed_in column)?  
-o	How many shows/movies fall into each genre category (e.g., "TV Dramas", "Documentaries")?
+o-	Which genres are the most popular on Netflix (based on the listed_in column)?  
+o-	How many shows/movies fall into each genre category (e.g., "TV Dramas", "Documentaries")?
 
 ## 4.	Rating Analysis:
-o	What are the most common content ratings (e.g., PG-13, TV-MA) in the dataset?  
-o	How does the distribution of content ratings differ between movies and TV shows?
+o-	What are the most common content ratings (e.g., PG-13, TV-MA) in the dataset?  
+o-	How does the distribution of content ratings differ between movies and TV shows?
 	
 ## 5.	Duration Analysis:
-o	What is the average duration of movies on Netflix?  
-o	How many TV shows have multiple seasons, and how many are single-season shows?
+o-	What is the average duration of movies on Netflix?  
+o-	How many TV shows have multiple seasons, and how many are single-season shows?
 
 ## 6.	Country Analysis:
-o	Which countries produce the most TV shows and movies for Netflix?  
-o	What is the distribution of Netflix content across different countries?
+o-	Which countries produce the most TV shows and movies for Netflix?  
+o-	What is the distribution of Netflix content across different countries?
 
 ## 7.	Cast & Director Analysis:  
-o	Which actors or actresses appear most frequently in Netflix content?  
-o	Which directors have directed the most content on Netflix?
+o-	Which actors or actresses appear most frequently in Netflix content?  
+o-	Which directors have directed the most content on Netflix?
 
 ## 8.	Release Trends:
-o	Analyze the seasonal trends in content addition (e.g., are more shows added during certain times of the year?).  
-o	Find out the busiest month for content additions historically.
+o-	Analyze the seasonal trends in content addition (e.g., are more shows added during certain times of the year?).  
+o-	Find out the busiest month for content additions historically.
